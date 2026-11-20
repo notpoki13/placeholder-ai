@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h2>Placeholder AI</h2>
+
+            <button id="newChat">+ New Chat</button>
+
+            <nav>
+                <p>WORKSPACE</p>
+                <a href="#">Chat History</a>
+                <a href="#">Image Understanding</a>
+                <a href="#">File Analysis</a>
+                <a href="#">Custom Assistants</a>
+                <a href="#">Settings</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                Private AI Workspace
+            </div>
+        </aside>
+
+        <main class="main">
+
+            <header>
+                <h3>Placeholder</h3>
+                <span>AI Backend: Not Connected</span>
+            </header>
+
+            <section class="chat" id="chat">
+
+                <div class="welcome" id="welcome">
+                    <h1>What can I help with?</h1>
+                    <p>Your private AI assistant.</p>
+                </div>
+
+                <div id="messages"></div>
+
+            </section>
+
+            <div class="composer">
+                <textarea
+                    id="userInput"
+                    placeholder="Message Placeholder..."
+                    rows="2"
+                ></textarea>
+
+                <div class="composer-actions">
+                    <span>Placeholder AI Preview</span>
+                    <button id="sendButton">Send ↑</button>
+                </div>
+            </div>
+
+            <footer>
+                Placeholder AI is currently in development.
+            </footer>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
