@@ -39,7 +39,7 @@ async def chat(request: ChatRequest):
 
     try:
         response = await client.responses.create(
-            model="gpt-5.5",
+            model="gpt-6.2-astra",
             instructions=(
                 "You are Placeholder, a helpful, "
                 "professional AI assistant."
